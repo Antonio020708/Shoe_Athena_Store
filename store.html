@@ -1,0 +1,369 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Shoe Athena | Store</title>
+    <script src="store.js" async></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- The header tag is assigned to the class of 'main-header' , the header contains child elements such as the nav element as well as ul and li elements -->
+
+    <header class="main-header">
+
+        <!-- The nav element is assigned the class of dropDown-header which contains styles in css-->
+
+        <nav class="dropDown-header">
+
+            <!-- The ul element is assigned the class of list-style-edit and within this ul element contains the jquery dropdown toggle feature -->
+
+            <ul class="list-style-edit">
+
+                <li><a href="Home.html">Home</a></li>
+
+                <!-- Below is the contents for the jquery dropdown feature , the 'Store' link does not contain a href attribute because it would affect the jquery toggle feature , due to that i have put in links to the store page on the items in the dropdown -->
+
+                <li>
+                    <a href="#"> Store </a>
+                    <ul>
+                        <li><a href="store.html">Nike AF1 Jacks</a></li>
+                        <li><a href="store.html">Nike (King edition)</a></li>
+                        <li><a href="store.html">Nike (Ice White) </a></li>
+                        <li><a href="store.html">Nike AF1</a></li>
+                    </ul>
+
+                </li>
+                <li><a href="about.html">About</a></li>
+
+            </ul>
+
+            <!-- End of ul element with dropdown -->
+
+        </nav>
+
+        <!-- end of nav element -->
+
+
+        <!-- The h1 element has assigned 2 classes which style the h1 tag -->
+
+        <h1 class="band-name band-name-large">Shoe Athena</h1>
+
+        <!-- End of h1-->
+
+    </header>
+
+    <!-- End of the header element -->
+
+
+    <!-- Beginning of the section tag , this tag contains all the children element of this page-->
+
+    <section class="container content-section">
+
+        <h2 class="section-header">NIKE</h2>
+
+
+        <!-- Below is a div element which is assigned to the class of 'shop-items' which contain all the elements making the shop items within it-->
+
+        <div class="shop-items">
+
+
+            <!-- The div below has a class of 'shop-item' which contains necessary info of the product-->
+
+            <div class="shop-item">
+
+                <span class="shop-item-title"> Nike AF1 Jacks</span>
+
+                <img class="shop-item-image pic" src=".\images\NikeAirJacksCustom.jpg">
+
+                <div class="shop-item-details">
+
+                    <span class="shop-item-price">$2500</span>
+
+                    <button class="btn btn-primary shop-item-button " type="button">ADD TO CART</button>
+
+                </div>
+
+                <!-- The paragraph below is a description of the product , contains a class of p1 symbolising paragraph 1 which is used as a jquery function , it is also accompanied by 2 buttons below called hide and show-->
+
+                <p class="p1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                    optio, eaque rerum! Provident similique accusantium nemo autem. </p>
+
+                <button id="hide">Hide</button> 
+                <button id="show">Show</button>
+
+                <!-- end of paragraph and buttons -->
+
+            </div>
+
+            <!-- End of first product -->
+
+
+            <!-- The div below has a class of 'shop-item' which contains necessary info of the product-->
+
+            <div class="shop-item">
+
+                <span class="shop-item-title">Nike (King edition)</span>
+
+                <img class="shop-item-image pic1" src=".\images\NikeAF1(King edition).jpg">
+
+                <div class="shop-item-details">
+
+                    <span class="shop-item-price">$1499</span>
+
+                    <button class="btn btn-primary shop-item-button " type="button">ADD TO CART</button>
+
+                </div>
+
+
+                <!-- The paragraph below is a description of the product , contains a class of p2 symbolising paragraph 2 which is used as a jquery function , it is also accompanied by 2 buttons below called hide and show-->
+
+                <p class="p2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                    optio, eaque rerum! Provident similique accusantium nemo autem. </p>
+
+                <button id="hide2">Hide</button>
+                <button id="show2">Show</button>
+
+                <!-- end of paragraph and buttons -->
+
+            </div>
+
+            <!-- End of second product -->
+
+
+            <!-- The div below has a class of 'shop-item' which contains necessary info of the product-->
+
+            <div class="shop-item">
+
+                <span class="shop-item-title">Nike (Ice White) </span>
+
+                <img class="shop-item-image pic2" src=".\images\NikeAF1(Ice white).jpg">
+
+                <div class="shop-item-details">
+
+                    <span class="shop-item-price">$999</span>
+
+                    <button class="btn btn-primary shop-item-button " type="button">ADD TO CART</button>
+
+                </div>
+
+
+                <!-- The paragraph below is a description of the product , contains a class of p3 symbolising paragraph 3 which is used as a jquery function , it is also accompanied by 2 buttons below called hide and show-->
+
+                <p class="p3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                    optio, eaque rerum! Provident similique accusantium nemo autem. </p>
+
+                <button id="hide3">Hide</button>
+                <button id="show3">Show</button>
+
+                <!-- end of paragraph and buttons -->
+
+            </div>
+
+            <!-- End of third product -->
+
+
+            <!-- The div below has a class of 'shop-item' which contains necessary info of the product-->
+
+            <div class="shop-item">
+
+                <span class="shop-item-title">Nike AF1</span>
+
+                <img class="shop-item-image pic3" src=".\images\NikeAF1.jpg">
+
+                <div class="shop-item-details">
+
+                    <span class="shop-item-price">$1999</span>
+
+                    <button class="btn btn-primary shop-item-button " type="button">ADD TO CART</button>
+
+                </div>
+
+ 
+                <!-- The paragraph below is a description of the product , contains a class of p4 symbolising paragraph 4 which is used as a jquery function , it is also accompanied by 2 buttons below called hide and show-->
+
+                <p class="p4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                    optio, eaque rerum! Provident similique accusantium nemo autem. </p>
+
+                <button id="hide4">Hide</button>
+                <button id="show4">Show</button>
+
+                <!-- end of paragraph and buttons -->
+
+            </div>
+
+            <!-- End of fourth product -->
+
+        </div>
+
+    </section>
+
+    <!-- End of section tag -->
+
+
+    <!-- Beginning of second section tag which contains extra products-->
+
+    <section class="container content-section">
+
+        <h2 class="section-header">Extras</h2>
+
+
+        <!-- Div containing all extra products-->
+
+        <div class="shop-items">
+
+            
+            <!-- div element containing first extra product -->
+
+            <div class="shop-item">
+
+                <span class="shop-item-title">Blue shirt</span>
+
+                <img class="shop-item-image" src=".\images\NikeTshirt.jpg">
+
+                <div class="shop-item-details">
+
+                    <span class="shop-item-price">$19.99</span>
+
+                    <button class="btn btn-primary shop-item-button " type="button">ADD TO CART</button>
+
+                </div>
+
+            </div>
+
+            <!-- end of div element containing first extra product -->
+
+
+            <!-- Second child div element containing second extra product -->
+
+            <div class="shop-item">
+
+                <span class="shop-item-title">Nike shirt</span>
+
+                <img class="shop-item-image" src=".\images\NikeSecondTshirt.jpg">
+
+                <div class="shop-item-details">
+
+                    <span class="shop-item-price">$25.99</span>
+
+                    <button class="btn btn-primary shop-item-button " type="button">ADD TO CART</button>
+
+                </div>
+
+            </div>
+
+            <!-- end of div element containing second extra product -->
+
+        </div>
+
+        <!-- End of div with class of shop-items -->
+
+    </section>
+
+    <!-- End of second section element containing extra products -->
+
+
+    <!-- Beginning of section tag which contains div and span child elements which is used to house values of shopping cart items-->
+
+    <section class="container content-section">
+
+        <h2 class="section-header">CART</h2>
+
+        <div class="cart-row">
+
+            <span class="cart-item cart-header cart-column">ITEM</span>
+
+            <span class="cart-price cart-header cart-column">PRICE</span>
+
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+
+        </div>
+
+        <div class="cart-items">
+
+
+        </div>
+
+        <div class="cart-total">
+
+            <strong class="cart-total-title">Total</strong>
+
+            <span class="cart-total-price">$0</span>
+
+        </div>
+
+        <!-- End of cart items-->
+
+
+        <!-- Beginning of forms elements which are contained in the div element assigned the class of 'forms'-->
+
+        <div class="form">
+
+            <span class="form-header"> Please select delivery method: </span>
+
+            <div class="form-input">
+                <form>
+
+                    <input type="radio" id="collection" name="delivery-method" value="collection" required>
+                    <label for="collection"> Collection </label><br>
+
+                    <input type="radio" id="delivery" name="delivery-method" value="delivery" required>
+                    <label for="deivery"> Delivery </label><br>
+
+                </form>
+
+                <span class="form-header"> Please rate your store experience: </span>
+
+                <form class="discount-input">
+
+                    <input type="radio" id="rating" name="rating" value="rating">
+                    <label for="rating"> 0-3 </label><br>
+
+                    <input type="radio" id="rating" name="rating" value="rating-2">
+                    <label for="rating"> 4-7 </label><br>
+
+                    <input type="radio" id="rating" name="rating" value="rating-3">
+                    <label for="rating"> 7-10 </label>
+
+                </form>
+            </div>
+
+            <!-- Below is a button element which has a onclick event used for generating a code for a discount coupon on the next purchase-->
+
+            <button onclick="finalSubmit()" class="btn btn-primary shop-item-button"> SUBMIT </button>
+
+        </div>
+
+        <!-- end of form contained in div-->
+
+        <button class="btn btn-primary btn-purchase" type="button">CONFIRM ORDER</button>
+
+    </section>
+
+    <footer class="main-footer">
+
+        <div class="container main-footer-container">
+
+            <h3 class="band-name">Shoe Athena</h3>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
